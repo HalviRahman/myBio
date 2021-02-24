@@ -1,0 +1,145 @@
+body{
+    margin: 0;
+    padding: 0px;
+}
+header {
+    width: 100%;
+    background-color: rgba(48, 51, 107, 1);
+    height: 65px;
+}
+
+.header-list {
+    float: left;
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.header-list li {
+    border-right: solid 1px #fff;
+}
+
+.header-list li:last-child {
+    border-right: none;
+}
+
+.header-list a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0 50px;
+    line-height: 65px;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    margin: 0px;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    float: left;
+}
+
+.button {
+    display: inline-block;
+    background-color: rgba(255, 255, 255, 0);
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.container{
+    padding: 50px 0;
+    color: rgb(2, 2, 2);
+    text-align: center;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.top-wrapper {
+    padding: 80px 0 50px 0;
+    background-image:url(https://cdn.discordapp.com/attachments/702071722282713192/703247398637404190/Logopit_1587737628883.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color:rgba(48, 51, 107, 1);
+    background-position: right;
+    color: white;
+}
+
+.top-wrapper h1{
+    font-size: 36px;
+    letter-spacing: 5px;
+    color: white;
+}
+.top-wrapper h2{
+    font-size: 30px;
+    color: white;
+}
+
+.top-wrapper p {
+    margin-bottom: 20px;
+    color: white;
+}
+
+.data{
+    font-size: 20px;
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+    padding: 60px;
+    background-color: gray;
+}
+
+
+.pendidikan{
+    font-size: 20px;
+    color: gray;
+    font-family:'Courier New', Courier, monospace;
+    padding: 70px;
+    background-color: white;
+}
+
+.jadwal{
+    font-size: 20px;
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+    padding: 60px;
+    background-color: gray;
+}
+
+table{
+    border: black 2px solid;
+    color: black;
+    padding-top: 2px;
+    margin: 2px;
+    background-color: orange;
+    text-align: center;
+}
+
+.pengalaman{
+    font-size: 20px;
+    color: gray;
+    font-family:'Courier New', Courier, monospace;
+    padding: 60px;
+    background-color: white;
+}
+
+.portofolio{
+    font-size: 20px;
+    color: white;
+    font-family:'Courier New', Courier, monospace;
+    padding: 60px;
+    background-color: gray;
+}
+
+.gambar{
+    width: 50%;
+}
